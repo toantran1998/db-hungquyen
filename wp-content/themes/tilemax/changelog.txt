@@ -1,0 +1,110 @@
+*** TileMax WordPress Theme Changelog ***
+
+2017.11.09 - version 1.0
+	* First release!
+
+2017.11.10 - version 1.1
+	* Updated dummy content
+
+2017.11.14 - version 1.2
+	* Fixed "designthemes-core-features" installation issue
+
+2018.05.17 - version 1.3
+	* Compatible with latest wordpress version 4.9.5
+	* Updated all third party plugins
+	* Fix - Unyson page builder conflicts with "Visual Composer" and "DesignThemes Page Builder" 
+	* Fix - All theme functions updated for child theme support
+	* Fix - Option for change the site title color
+	* Fix - Add target attribute for social media
+	* Fix - PO File updated. 
+	* Fix - search option display
+	* Fix - Nav Menu compatibility
+	* Fix - Menu disable link design issue
+	* Fix - Bundled with updated woocommerce file
+	* Fix - Twitter link added.
+	* Fix - Documentation updated
+
+2018.07.26 - version 1.4
+	* GDPR Compliant update in comment form, mailchimp form etc.
+	* Packed with - Layer Slider 6.7.6
+	* Packed with - Revolution Slider 5.4.8
+	* Packed with - WPBakery Page Builder 5.5.2
+	* Packed with - Ultimate Addons for Visual Composer 3.16.24
+	* Packed with - Envato Market 2.0.0
+	* Fix - Iphone sidebar issue
+	* Fix - Youtube and Vimeo video issue in https
+	* Updated language files
+ 
+2018.10.30 - version 1.5
+	* Gutenberg plugin compatible
+	* Latest wordpress version 4.9.8 compatible
+	* Updated latest version of all third party plugins
+	* Updated documentation
+
+2019.01.22 - version 1.6
+	* Gutenberg compatible
+	* Latest WordPress version 5.0.3 compatible
+	* Updated latest version of all third party plugins
+	* Some design tweaks
+
+2019.05.20 - version 1.7
+	* Gutenberg Latest update compatible
+	* Portfolio Video option
+	* Coming Soon page fix
+	* Portfolio archive page breadcrumb fix
+	* Mega menu image fix
+	* GDPR product single page fix
+	* Codestar framework update
+	* Wpml xml file updated
+	* disable options for likes and views in single post page
+	* Updated latest version of all third party plugins
+	* Some design tweaks
+
+2019.11.13 - version 1.8
+	* Compatible with wordpress 5.2.4
+	* Updated: All wordpress theme standards
+	* Updated: All premium plugins
+	* Updated: Revisions added to all custom post types
+	* Updated: Compatible with Gutenberg editor
+
+2020.02.01 - version 1.9
+
+	* Compatible with wordpress 5.3.2
+	* Updated: All premium plugins
+	* Updated: All wordpress theme standards
+	* Updated: Privacy and Cookies concept
+	* Updated: Gutenberg editor support for custom post types
+
+	* Fixed: Google Analytics issue
+	* Fixed: Mailchimp email client issue
+	* Fixed: Privacy Button Issue
+	* Fixed: Gutenberg check for old wordpress version
+
+	* Improved: Tags taxonomy added for portfolio
+	* Improved: Single product breadcrumb section
+	* Improved: Revisions options added for all custom posts
+
+2020.07.06 - version 2.0
+	* Compatible with wordpress 5.4.2
+	* Updated: All premium plugins
+	* Updated: Some design tweaks
+	* Updated: Sub menu mouse hover issue
+	* Updated: Activating another theme causes error
+
+2020.08.04 - version 2.1
+
+	* Updated: Envato Theme check
+	* Updated: sanitize_text_field added
+	* Updated: All wordpress theme standards
+	* Updated: All premium plugins
+
+2020.08.13 - version 2.2
+	* Compatible with wordpress 5.5
+
+2020.09.18 - version 2.3
+
+* Compatible with wordpress 5.5.1
+* Updated: Fatal error on other theme activation
+* Updated: All premium plugins
+* Updated: Outdated copies of some WooCommerce template files
+* Updated: Coming Soon page design issue

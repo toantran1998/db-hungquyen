@@ -1,0 +1,102 @@
+/*
+Theme Name: TileMax
+Theme URI: http://tilemax.wpengine.com/
+Author: the DesignThemes team
+Author URI: https://wedesignthemes.com/
+Description: TileMax theme for flooring
+Version: 2.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: tilemax
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+#footer {
+    padding-block: 30px;
+    padding-inline: 20%;
+    color: #c4c4c4;
+    font-family: Roboto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("http://hungquyenceramics.com/wp-content/uploads/2021/07/bg-footer.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.kt-row {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.kt-col-3 {
+    flex: 1 0 25%;
+}
+.kt-col-4 {
+    flex: 1 0 33.33%;
+}
+.kt-col-9 {
+    flex: 1 0 75%;
+}
+
+.kt-title td {
+    font-size: 14px;
+}
+.kt-title td:first-child {
+    font-size: 24px;
+}
+
+.kt-text-white {
+    color: white;
+    font-weight: bold;
+}
+
+#top-footer table tr:first-child td {
+    position: relative;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    text-transform: uppercase;
+}
+#top-footer table tr:first-child td .contact {
+    color: #26A8DF;
+}
+#top-footer table tr:first-child td .highlighter {
+    position: absolute;
+    bottom: -1px;
+    display: block;
+    width: 20%;
+    height: 2px;
+    background-color: #26A8DF;
+}
+
+#bottom-footer table td {
+    vertical-align: top;
+}
+
+ul.no-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.kt-contact-icon {
+    display: flex;
+}
+.kt-contact-icon img {
+    width: 24px;
+    height: 24px;
+    margin-right: 1em;
+}
+
+.certs {
+    margin-block: 1.33em;
+}
+.certs img {
+    margin-right: 1em;
+}
+
+.showrooms p {
+    padding-right: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */

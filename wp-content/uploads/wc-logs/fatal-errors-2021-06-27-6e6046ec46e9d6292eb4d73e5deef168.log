@@ -1,0 +1,10 @@
+2021-06-27T16:12:42+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/wordpress/wp-content/plugins/designthemes-core-features/apis/twitteroauth/twitteroauth.php:199
+Stack trace:
+#0 /var/www/html/wordpress/wp-content/plugins/designthemes-core-features/apis/twitteroauth/twitteroauth.php(186): TwitterOAuth->http('https://api.twi...', 'GET')
+#1 /var/www/html/wordpress/wp-content/plugins/designthemes-core-features/apis/twitteroauth/twitteroauth.php(146): TwitterOAuth->oAuthRequest('https://api.twi...', 'GET', Array)
+#2 /var/www/html/wordpress/wp-content/plugins/designthemes-core-features/shortcodes/shortcodes.php(2668): TwitterOAuth->get('statuses/user_t...', Array)
+#3 /var/www/html/wordpress/wp-includes/shortcodes.php(343): DTCoreShortcodesDefination->dt_sc_twitter_tweets(Array, '', 'dt_sc_twitter_t...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /var/www/html/wordpress/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(dt_sc_...', 'do_shortcode_ta...', '[dt_sc_align][d...')
+#6 /var/www/ in /var/www/html/wordpress/wp-content/plugins/designthemes-core-features/apis/twitteroauth/twitteroauth.php on line 199
+
