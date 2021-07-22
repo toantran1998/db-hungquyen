@@ -1,0 +1,103 @@
+// Search form
+.kt-search-form
+  display: flex
+  text-align: center
+
+  &__label
+    padding-inline: 1em
+
+  &__select
+    display: flex
+
+  &__input
+    align-self: flex-end
+    margin-left: auto
+    max-width: 300px
+
+  .kt-select
+    display: inline-block
+    max-width: 150px
+    margin-right: 0.5em
+
+// Category component
+.kt-category
+  margin-bottom: 2em
+
+  &__heading
+    text-align: center
+
+    &__title
+      margin-bottom: 1em
+
+    &__divider
+      width: 2em
+      margin-inline: auto
+      margin-bottom: 1em
+      border-top: 2px solid black
+      opacity: 1
+
+    &__description
+      margin-bottom: 1em
+
+  &__btn
+    position: relative
+    display: block
+    width: fit-content
+    margin: auto
+    padding: 0.5em 1.5em
+    background-color: transparent
+    border: 1px solid #4c4c4c
+    cursor: pointer
+
+    span
+      position: relative
+      z-index: 1
+      color: #4c4c4c
+
+    &:before
+      content: ''
+      z-index: 0
+      position: absolute
+      top: 0
+      bottom: 0
+      left: 0
+      right: 0
+      background-color: #981b1e
+      transform-origin: 50%
+      transform: scaleX(0)
+      transition: transform 0.3s ease
+
+    &:hover
+      &:before
+        transform-origin: 50%
+        transform: scaleX(1)
+        transition: transform 0.3s ease
+      span
+        color: white
+        transition: color 0.3s ease
+
+// Product list
+.kt-category__products
+  & > .row
+    overflow: hidden
+    flex-wrap: nowrap
+
+// Single product
+.kt-product
+  &__img
+    overflow: hidden
+    img
+      width: 100%
+      transform: scale(1)
+      transition: transform 0.3s ease
+
+  &__name
+    padding-block: 6px
+    text-align: center
+    color: black
+    background-color: #ccc
+
+  &:hover
+    img
+      transform: scale(1.2)
+      transition: transform 0.3s ease

@@ -101,3 +101,21 @@ if( class_exists( 'WP_Store_locator' ) ){
 
 // Register Gutenberg -----------------------------------------------------------
 require_once( TILEMAX_THEME_DIR .'/framework/register-gutenberg-editor.php' );
+
+
+// Khoi custom code
+add_shortcode("kt_custom_sc","kt_custom_sc_handle");
+function kt_custom_sc_handle () {
+	ob_start();
+	?>
+	<p>This is Khoi custom shortcode</p>
+	<?php
+	$result = ob_get_contents();
+	ob_end_clean();
+	return $result;
+}
+
+
+
+
+
